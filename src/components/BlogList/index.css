@@ -1,0 +1,14 @@
+/* Write your CSS code here */
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 40px;
+}
+ul {
+  padding-left: 0;
+}
+p{
+  font-family: 'roboto';
+  font-size: 16px;
+}

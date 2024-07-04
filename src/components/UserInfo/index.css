@@ -1,0 +1,28 @@
+/* Write your CSS code here */
+.profile-img {
+  height: 200px;
+}
+.name {
+  font-family: 'roboto';
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+@media (max-width: 530px) {
+  .name {
+    font-size: 22px;
+    text-align: center;
+  }
+  .about{
+    font-size: 15px;
+  }
+}
+.about {
+  color: #616e7c;
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 15px;
+}
+.profile-container{
+  text-align: center;
+}

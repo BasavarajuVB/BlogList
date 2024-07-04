@@ -1,0 +1,18 @@
+/* Write your CSS code here */
+li {
+  list-style-type: none;
+}
+.head-time-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-size: 24px;
+}
+@media screen and(min-width:600px){
+  h1{
+    font-size: 29px;
+  }
+}
